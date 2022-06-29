@@ -4,6 +4,10 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>false</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>WeKoDe.MML.Messages</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>WeKoDe</Authors>
+    <Company>WeKoDe</Company>
   </PropertyGroup>
 
 </Project>

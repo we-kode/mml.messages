@@ -8,6 +8,9 @@
     <Version>1.0.0</Version>
     <Authors>WeKoDe</Authors>
     <Company>WeKoDe</Company>
+    <Description>
+    This client library contains messages of MyMediaLib, that are sent over the message bus.
+    </Description>
   </PropertyGroup>
 
 </Project>

@@ -1,10 +1,10 @@
 using System;
 
-namespace Messages {
+namespace Messages.Events.Interfaces {
   /// <summary>
   /// Message that gets send with MassTransit when a new group is created. 
   /// </summary>
-  public interface GroupCreated {
+  public interface IGroupCreated {
     /// <summary>
     /// Id of the newly created group.
     /// </summary>

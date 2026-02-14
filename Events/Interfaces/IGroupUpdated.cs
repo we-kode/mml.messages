@@ -1,10 +1,10 @@
 using System;
 
-namespace Messages {
+namespace Messages.Events.Interfaces {
   /// <summary>
   /// Message that gets send with MassTransit when a group is updated. 
   /// </summary>
-  public interface GroupUpdated {
+  public interface IGroupUpdated {
     /// <summary>
     /// Id of the updated group.
     /// </summary>

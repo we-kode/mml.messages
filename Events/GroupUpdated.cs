@@ -13,17 +13,17 @@ namespace Messages.Events
         /// <summary>
         /// Id of the updated group.
         /// </summary>
-        Guid Id { get; } = id;
+        public Guid Id { get; } = id;
 
         /// <summary>
         /// Name of the updated group.
         /// </summary>
-        string Name { get; } = name;
+        public string Name { get; } = name;
 
         /// <summary>
         /// Flag that indicates, whether the updated group is a default group
         /// or not.
         /// </summary>
-        bool IsDefault { get; } = isDefault;
+        public bool IsDefault { get; } = isDefault;
     }
 }

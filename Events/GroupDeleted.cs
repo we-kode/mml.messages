@@ -12,6 +12,6 @@ namespace Messages.Events
         /// <summary>
         /// Id of the deleted group.
         /// </summary>
-        Guid Id { get; set; } = id;
+        public Guid Id { get; set; } = id;
     }
 }
